@@ -43,12 +43,12 @@ while True:
 
  if ((users_choice == "paper" and comp_choice == "Rock")
  or(comp_choice == "Rock" and users_choice == "Paper")):
-  print("Paper Wins")
-  result = "Paper" 
+  result = "Paper"
+ print("Paper Wins")
  elif ((users_choice == "Sicssors" and comp_choice == "Rock")
  or(comp_choice == "Rock" and users_choice == "Sicssors")):
-   print("Rock Wins")
-   result = "Rock"   
+   result = "Rock"  
+  print("Paper Wins")
  elif(users_choice == comp_choice): 
     print("it's a tie")
     result = "Tie"
