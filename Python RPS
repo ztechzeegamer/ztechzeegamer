@@ -46,7 +46,7 @@ while True:
   result = "Paper"
  print("Paper Wins")
  elif ((users_choice == "Sicssors" and comp_choice == "Rock")
- or(comp_choice == "Rock" and users_choice == "Sicssors")):
+ or(users_choice == "Rock" and comp_choice == "Sicssors")):
    result = "Rock"  
   print("Paper Wins")
  elif(users_choice == comp_choice): 
